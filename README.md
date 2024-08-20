@@ -1,8 +1,32 @@
-# React + Vite
+# Projeto De Font-end Geração Tech (E-Commerce) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## loja de Tênis - E-commerce Front-end
 
-Currently, two official plugins are available:
+Este repositório contém o código-fonte do front-end de uma loja de tênis online. O projeto foi desenvolvido com o objetivo de proporcionar uma experiência de compra intuitiva e agradável, permitindo aos usuários navegar pelo site.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Funcionalidades
+Página Inicial Personalizada: 
+Layout responsivo com componentes personalizados.
+
+### Componentes Customizados:
+Componentes reutilizáveis desenvolvidos em React para fácil manutenção e escalabilidade.
+
+### Design Responsivo: 
+Interface amigável que se adapta a diferentes dispositivos, garantindo uma boa experiência em desktops.
+
+### Tecnologias Utilizadas
+#### React.js: 
+Biblioteca JavaScript para criação de interfaces de usuário.
+#### CSS3: 
+Estilização e design responsivo.
+#### Git e GitHub:
+Controle de versão e hospedagem do código-fonte.
+
+
+## Como Executar
+#### Clone o repositório:
+git clone 
+#### Instale as dependências:
+npm install
+#### Execute o projeto:
+npm start
