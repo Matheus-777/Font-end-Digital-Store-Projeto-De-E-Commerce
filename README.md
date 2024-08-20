@@ -29,4 +29,5 @@ git clone https://github.com/Matheus-777/ont-end-Digital-Store-Projeto-De-E-Comm
 #### Instale as dependências:
 npm install
 #### Execute o projeto:
-npm start
+npm run dev 
+
