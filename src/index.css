@@ -1,0 +1,1412 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.styleheader-container {
+    width: 1240px;
+    height: 180px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 27px;
+    margin-bottom: auto;
+}
+
+.header-container {
+    display: flex;
+    width: 1240px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 27px;
+    margin-bottom: auto;
+}
+
+.styleheader-container.logo {
+    gap: 27px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputPesquisa {
+    display: flex;
+    width: 556px;
+    height: 50px;
+    margin-left: 27px;
+    border: 0cap;
+    font-size: medium;
+    border-radius: 7px;
+    background-color: #ece8e89b;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 0cap;
+    font-size: medium;
+    border-radius: 0px 7px 7px 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#search-container {
+    position: relative;
+}
+
+#SearchButton {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+}
+
+.ButtonEntrar {
+    display: flex;
+    width: 158px;
+    height: 40px;
+    top: 20px;
+    margin-left: 30px;
+    background: rgba(201, 32, 113, 1);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+
+}
+
+.ButtonEntrar:hover {
+    background-color: rgb(167, 23, 92)
+}
+
+.buttonentrar2 {
+    display: flex;
+    text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.cadastro {
+    color: rgb(82, 81, 81);
+    margin-left: 45px;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#carrinho {
+    width: 158px;
+    height: 40px;
+    margin-top: auto;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: rgba(31, 31, 31, 1);
+
+}
+
+.blocoheader {
+    display: flex;
+}
+
+.logoFooter {
+    display: flex;
+
+
+}
+
+.box-container {
+    display: flex;
+
+    margin-left: 50px;
+
+}
+
+.blocofooter1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: none;
+}
+
+.descricao {
+    color: white;
+    display: flex;
+    justify-content: left;
+    width: 307px;
+    margin-top: 35px;
+}
+
+.redessocias {
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+
+}
+
+.informacoes {
+    color: white;
+    margin-top: 31px;
+    margin-left: 200px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 600px;
+    line-height: 21.78px;
+    text-align: left;
+
+}
+
+.linksfooter {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 200px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.linksfooterr {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.categoriaslinks {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 150px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.categoriaslinkss {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.categorias {
+    color: white;
+    margin-top: 31px;
+    margin-left: 150px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 600px;
+    line-height: 21.78px;
+    text-align: left;
+
+}
+
+.contato {
+    color: white;
+    margin-top: 31px;
+    margin-left: 150px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 600px;
+    line-height: 21.78px;
+    text-align: left;
+
+}
+
+.blocofooter4 {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 210px;
+    margin-left: 150px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+hr {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+    height: 0%;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.Navlink {
+    display: inline-flex;
+    justify-content: baseline;
+    gap: 26px;
+    list-style: none;
+    margin-top: 90px;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list {
+    text-decoration: none;
+    list-style: none;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active,
+nav ul.list a.active {
+    color: rgba(201, 32, 113, 1) !important;
+    border-bottom: 3px solid rgba(201, 32, 113, 1);
+    font-weight: bolder;
+}
+
+nav ul .list a:visited {
+    color: rgb(72, 71, 71);
+
+}
+
+nav ul .list:hover a {
+    color: rgba(201, 32, 113, 1);
+}
+
+nav ul .list a {
+    color: rgb(72, 71, 71);
+    list-style: none;
+    text-decoration: none;
+}
+
+.list:hover {
+    color: rgba(201, 32, 113, 1);
+    border-bottom: 3px solid rgba(201, 32, 113, 1);
+    font-weight: bolder;
+
+}
+
+.conteudo {
+    position: absolute;
+    width: 485px;
+    height: 400px;
+    gap: 0px;
+    opacity: 0px;
+    top: 78px;
+    left: 60px;
+    z-index: 1;
+}
+
+.conteudo h1 {
+    font-family: "Inter";
+    font-size: 64px;
+    margin-top: 15px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+
+}
+
+.conteudo p {
+    margin-top: 50px;
+    color: rgba(246, 170, 28, 1);
+    height: 0%;
+}
+
+.conteudo .lorem {
+    color: rgb(72, 71, 71);
+    width: 350px;
+    margin-top: 15px;
+}
+
+.buttonofertas {
+    display: flex;
+    width: 158px;
+    height: 40px;
+    margin-top: 75px;
+    background: rgba(201, 32, 113, 1);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.buttonofertas:hover {
+    background: rgb(148, 18, 81);
+    color: white;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    display: flex;
+    width: 580px;
+    height: 580px;
+    top: 446.91px;
+    left: 513.25px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.SwiperHome {
+    width: 100%;
+
+
+}
+
+.carrossel {
+    position: relative;
+}
+
+.titulo-coleçoes {
+    width: 283px;
+    height: 38px;
+    top: 913px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: rgba(71, 71, 71, 1);
+
+
+}
+
+.container-colecoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.div-box {
+    position: relative;
+    z-index: 1;
+}
+
+.box-1 {
+    display: flex;
+    width: 405px;
+    height: 251px;
+    top: 971px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: rgba(216, 227, 242, 1);
+
+
+
+}
+
+.box-2 {
+    display: flex;
+    width: 405px;
+    height: 251px;
+    top: 971px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: rgba(216, 227, 242, 1);
+
+}
+
+.box-3 {
+    display: flex;
+    width: 405px;
+    height: 251px;
+    top: 971px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: rgba(216, 227, 242, 1);
+
+}
+
+.box-1 p {
+    width: 66px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    width: Hug (96px)px;
+    height: Hug (32px)px;
+    margin-top: 34px;
+    margin-left: 30px;
+    padding: 5px 15px 5px 15px;
+    gap: 10px;
+    border-radius: 29px;
+    opacity: 0px;
+    background-color: rgba(231, 255, 134, 1);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+.box-1 h3 {
+    width: 172px;
+    height: 72px;
+    margin-left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 1000;
+    line-height: 36px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+    color: rgba(31, 31, 31, 1);
+
+
+}
+
+.box-1 button {
+    width: 153px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 8px;
+    background-color: rgba(245, 245, 245, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: rgba(201, 32, 113, 1);
+
+}
+
+.box-2 p {
+    width: 66px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    width: Hug (96px)px;
+    height: Hug (32px)px;
+    margin-top: 34px;
+    margin-left: 30px;
+    padding: 5px 15px 5px 15px;
+    gap: 10px;
+    border-radius: 29px;
+    opacity: 0px;
+    background-color: rgba(231, 255, 134, 1);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+.box-2 h3 {
+    width: 172px;
+    height: 72px;
+    margin-left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 1000;
+    line-height: 36px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+    color: rgba(31, 31, 31, 1);
+
+
+}
+
+.box-2 button {
+    width: 153px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 8px;
+    background-color: rgba(245, 245, 245, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: rgba(201, 32, 113, 1);
+
+}
+
+.box-3 p {
+    width: 66px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    width: Hug (96px)px;
+    height: Hug (32px)px;
+    margin-top: 34px;
+    margin-left: 30px;
+    padding: 5px 15px 5px 15px;
+    gap: 10px;
+    border-radius: 29px;
+    opacity: 0px;
+    background-color: rgba(231, 255, 134, 1);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+.box-3 h3 {
+    width: 160px;
+    height: 72px;
+    margin-left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 1000;
+    line-height: 36px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+    color: rgba(31, 31, 31, 1);
+}
+
+.box-3 button {
+    width: 153px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 8px;
+    background-color: rgba(245, 245, 245, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: rgba(201, 32, 113, 1);
+
+}
+
+.container-colecoes button:hover {
+    background-color: rgba(201, 32, 113, 1);
+    color: rgba(245, 245, 245, 1);
+}
+
+.imgens-colecoes {
+    display: flex;
+    position: absolute;
+    margin-left: 162px;
+    margin-top: 9px;
+}
+
+.div-box-2 {
+    position: relative;
+    z-index: 1;
+}
+
+.imgens-colecoes-2 {
+    position: absolute;
+    margin-left: 162px;
+
+}
+
+.div-box-3 {
+    position: relative;
+    z-index: 1;
+}
+
+.imagens-colecoes-3 {
+    position: absolute;
+    margin-left: 179px;
+
+}
+
+.titulo-h3 {
+    width: 100%;
+    height: 38px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: rgba(71, 71, 71, 1);
+}
+
+.box-icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 180px;
+
+
+}
+
+.box-icone-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.box-icone-2 h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: rgb(109, 105, 105);
+
+
+}
+
+.titulo-h3-2 {
+    display: flex;
+    width: 95%;
+    height: 38px;
+    margin-top: 123px;
+    margin-left: 50px;
+    justify-content: space-between;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.titulo-h3-2 h3 {
+    margin-left: 10px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: rgba(71, 71, 71, 1);
+}
+
+.titulo-h3-2 a {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #c92071;
+    text-decoration: none;
+}
+
+
+.Card {
+    display: flex;
+    width: 292px;
+    height: 439px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+.Card-img {
+    width: 292px;
+    height: 321px;
+    top: 1699px;
+    left: 416px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    box-shadow: 5px 5px 5px 5px #22222220;
+
+
+}
+
+.Card-img p {
+    
+    width: 66px;
+    height: 22px;
+    gap: 0px;
+    margin-top: 34px;
+    margin-left: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 29px;
+    background-color: rgba(231, 255, 134, 1);
+    font-family: "Inter";
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    
+
+}
+
+.DescricaoCard {
+    height: 200px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    margin-top: 550px;
+    margin-left: 5px;
+    color: rgba(143, 143, 143, 1);
+
+
+}
+
+.Box-4 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 220px;
+}
+
+.tenisCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.ConteudoDescricao {
+
+    width: 680px;
+    height: 341px;
+    margin-top: 2px;
+
+}
+
+.OfertaDescricao {
+    width: 116px;
+    height: 22px;
+    font-family: "Inter";
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: rgba(201, 32, 113, 1);
+}
+
+.h2Descricao {
+    width: 680px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    margin-top: 17px;
+    margin-left: 15px;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+
+}
+
+.tenis {
+    margin-left: 0px;
+}
+
+.LoremDEscricao {
+    width: 550px;
+    height: 112px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: rgba(71, 71, 71, 1);
+}
+
+.ButtonDescricao Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 40px;
+    background: rgba(201, 32, 113, 1);
+    color: white;
+    font-family: "Inter", ;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+
+}
+
+.produtos-layout {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.name {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: rgba(71, 71, 71, 1);
+
+}
+
+.valores {
+    display: flex;
+}
+
+.price {
+    width: 50px;
+    height: 38px;
+    font-family: "Inter";
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-decoration: line-through;
+    color: rgba(143, 143, 143, 1);
+
+}
+
+.priceDiscount {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: rgba(31, 31, 31, 1);
+
+}
+
+.listagem {
+    display: flex;
+    gap: 20px;
+    margin-block: 20px;
+}
+.ordenarpor{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    margin-left: 1050px;
+    justify-content:center ;
+    align-items:center ;
+    border: 1px solid rgba(71, 71, 71, 1);
+}
+.form-selector {
+    width: 302px;
+    height: 690px;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 4px;
+    opacity: 0px;
+    margin-left: 25px;
+    margin-block: 0px;
+    box-shadow: 10px 10px 45px 10px #22222220;
+    
+}
+
+.FiltrarPor hr {
+    
+    width: 248px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.marca {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Inter";
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color:rgba(71, 71, 71,);
+    
+}
+.categoria {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color:rgba(71, 71, 71,);
+}
+.genero {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color:rgba(71, 71, 71,);
+}
+.estado {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color:rgba(71, 71, 71,);
+}
+.form p{
+font-family: "Inter";
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.75px;
+text-align: left;
+
+}
+.checkbox label{
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: rgba(71, 71, 71, 1);
+    
+}
+.listagem-produtos {
+    width: 1000px;
+    height: 1860px;
+
+}
+.ViewPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 700px;
+}
+.Productshowthumbs{
+    display: flex;
+    flex-direction: column;
+}
+.SwiperViewPage{
+    display: flex;
+    width: 700px;
+    height: 500px;
+}
+.imageslider{
+    width: 700px;
+    height: 96px;
+    top: 865px;
+    left: 391.59px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    
+}
+
+.imageslider img{
+    width: 117px;
+    height: 96px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+.imageslider img:hover{
+    border: 2px solid #c92071;
+}
+.Descricaooptions{
+    width: 500px;
+    height: 600px;
+}
+.titulo-h3-3 {
+    display: flex;
+    width: 95%;
+    height: 38px;
+    margin-top: 80px;
+    margin-left: 50px;
+    justify-content: space-between;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.titulo-h3-3 a {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #c92071;
+    text-decoration: none;
+}
+.options{
+    width: 502.75px;
+    font-family: "Inter";
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+    
+}
+.options p{
+    margin-top: 10px;
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;    
+    color:rgba(102, 102, 102, 1);
+    
+
+}
+.Products-View-page{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    margin-bottom: 127px;
+}  
+.container-stars{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 5px;
+    gap: 13px;
+} 
+.container-stars p{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;    
+    color: rgba(143, 143, 143, 1);
+
+} 
+.valores-price{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 30px;
+    margin-top: 10px;
+    height: 20px;
+}
+.valores-price div{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    
+}
+.Discountprice{
+    font-family: "Inter",sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0.9999998807907104px;
+    text-align: left;
+    
+}
+
+
+.DescriptionProduct {
+    width: 400px; 
+    margin-top: 15px;
+    
+}
+.ProdutoDescriçao{
+    width: 162px;
+    height: 22px;
+    top: 488px;
+    left: 841px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: rgba(143, 143, 143, 1);
+        
+
+}
+.lorem{
+    width: 400px;
+    margin-top: 5px;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: rgba(71, 71, 71, 1);
+    
+}
+.Tamnhos-Container{
+    display: flex;
+    width: 280px;
+    height: 80px;
+    top: 611px;
+    left: 841px;
+    gap: 10px;
+
+}
+.Tamanhos{
+    width: 68px;
+    height: 22px;
+    top: 611px;
+    left: 841px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 10px;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: rgba(143, 143, 143, 1);
+
+}
+.Box-Tamanhos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    cursor: pointer;
+    
+}
+.Box-Tamanhos p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(204, 204, 204, 1);
+    width: 39px;
+    height: 39px;
+    top: 643px;
+    left: 841px;
+    gap: 0px;
+    margin-top: 10px;
+    border-radius: 4px ;
+    border-radius: 1px;
+    opacity: 0px;
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color:rgba(71, 71, 71, 1);
+}
+.Box-Tamanhos p:hover{
+    background-color:rgba(201, 32, 113, 1);
+    color: white;
+}
+.Tamanhos-Color{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 71px;
+    
+}
+.Box-Color{
+    display:flex;
+    gap: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.blue{
+    width: 32px;
+    height: 32px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    background-color:rgba(111, 238, 255, 1);
+    
+    
+}
+.red{
+    width: 32px;
+    height: 32px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    background-color: rgba(255, 105, 105, 1);
+    
+}
+.black{
+    width: 32px;
+    height: 32px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    background-color:rgba(94, 94, 94, 1);
+    
+}
+.purple{
+    width: 32px;
+    height: 32px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    background-color:rgba(109, 112, 183, 1);
+}
+.Button-Comprar{
+    width: 220px;
+    height: 44px;
+    border-radius: 10px;
+    margin-top: 8px;
+    background-color: rgb(255, 179, 1);
+    color: white;
+}
+.Button-Comprar p{
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    
+}
