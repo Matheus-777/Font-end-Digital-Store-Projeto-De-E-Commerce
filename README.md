@@ -25,7 +25,7 @@ Controle de versão e hospedagem do código-fonte.
 
 ## Como Executar
 #### Clone o repositório:
-git clone 
+git clone https://github.com/Matheus-777/ont-end-Digital-Store-Projeto-De-E-Commerce-Fr.git
 #### Instale as dependências:
 npm install
 #### Execute o projeto:
