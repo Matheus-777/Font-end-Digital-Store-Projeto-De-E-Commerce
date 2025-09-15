@@ -1,4 +1,4 @@
-# Projeto De Font-end Geração Tech (E-Commerce) 
+# Projeto De Front-end Geração Tech (E-Commerce) 
 
 ## loja de Tênis - E-commerce Front-end
 
